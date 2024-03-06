@@ -1,0 +1,139 @@
+/* Обнуление отступов и полей у body и всех элементов */
+body, h1, h2, h3, p, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Устанавливаем шрифт для всего документа */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Цвет основного текста */
+    line-height: 1.6;
+    background-image: url('images/main.jpg');
+}
+
+/* Общие стили для header */
+header {
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Горизонтальное смещение, вертикальное смещение, радиус размытия, цвет обводки */
+
+}
+
+/* Стили для логотипа в header */
+header img {
+    vertical-align: middle;
+}
+
+/* Стили для названия в header */
+header h1 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Стили для навигационного меню */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section > h1, section > h2, section > h3 {
+    color: #1E90FF; /* Цвет заголовков */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+
+p {
+    font-size: 16px; /* Размер обычного текста */
+    margin-bottom: 15px;
+}
+
+a {
+    color: #000000; /* Цвет ссылок */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Плавное изменение цвета при наведении */
+}
+
+a:hover {
+    color: #1E90FF; /* Измененный цвет ссылок при наведении */
+}
+
+/* Стили для форм входа и регистрации */
+form {
+    display: none;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+/* Стили для кнопок отображения форм */
+button {
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+/* Стили для основного содержимого в section */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 800px;
+
+}
+
+/* Стили для списка услуг */
+ul {
+    margin: 10px 0;
+    padding-left: 18px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Стили для footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стили для ссылок в footer */
+footer a {
+    color: #1E90FF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Подчеркивание при наведении на ссылки */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Дополнительные стили для форм */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+}
